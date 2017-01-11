@@ -20,7 +20,11 @@
 				"format": "default"
 			}, {
 				"name": "Project Type",
-				"type": "integer",
+				"type": "string",
+				"format": "default"
+			}, {
+				"name": "Priority",
+				"type": "string",
 				"format": "default"
 			}]
 		},
