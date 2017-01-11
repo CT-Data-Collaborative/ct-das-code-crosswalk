@@ -1,0 +1,33 @@
+{
+	"name": "ct-das-school-construction-grants-project-codes",
+	"title": "Connecticut Department of Administrative Services School Construction Grants Project Code Crosswalk",
+	"description": "Connecticut Department of Administrative Services publish data on school construction, including grants, bonds, and payments. Projects are reported by town and by code. This dataset is the crosswalk for interpreting the publish codes.",
+	"version": "1.0",
+	"license": {
+		"type": "Open Data Commons Public Domain",
+		"url": "http://opendatacommons.org/licenses/pddl/"
+	},
+	"author": {
+		"name": "Sasha Cuerda",
+		"email": "scuerda@ctdata.org",
+		"web": "http://ctdata.org"
+	},
+	"resources": [{
+		"schema": {
+			"fields": [{
+				"name": "Code",
+				"type": "string",
+				"format": "default"
+			}, {
+				"name": "Project Type",
+				"type": "integer",
+				"format": "default"
+			}]
+		},
+		"name": "ct-das-code-crosswalk",
+		"title": "CT DAS Code Crosswalk",
+		"path": "ct-das-code-crosswalk.csv",
+		"format": "CSV",
+		"mediatype": "text/csv"
+	}]
+}
